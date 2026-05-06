@@ -1,11 +1,11 @@
+// Вводим необходимые библиотеки
 #include <iostream>
 #include <string>
-using namespace std;
 
-int main()
+int main() // Задаем главную функцию
 {
-	string name;
-	cout << "Введите имя пользователя: "; cin >> name;
-	cout << "Hello world from " << name << "!" << endl;
+	std::string name; // Задаем новую переменную 'name' типа string
+	std::cout << "Введите имя пользователя: "; std::cin >> name; // Задаем переменную 'name' через стандартный поток ввода
+	std::cout << "Hello world from " << name << "!" << std::endl; // Выводим результат работы программы
 	return 0;
 }
